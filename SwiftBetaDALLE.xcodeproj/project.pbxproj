@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41AB543291EBCAF00308ABB /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41AB542291EBCAF00308ABB /* EditView.swift */; };
+		F41AB54A291EC42600308ABB /* HelpersTutorialDALLE2 in Frameworks */ = {isa = PBXBuildFile; productRef = F41AB549291EC42600308ABB /* HelpersTutorialDALLE2 */; };
+		F41AB54D291ED05700308ABB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F41AB54C291ED05700308ABB /* Alamofire */; };
 		F4D49154291D5DD5007F3918 /* SwiftBetaDALLEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D49153291D5DD5007F3918 /* SwiftBetaDALLEApp.swift */; };
 		F4D49156291D5DD5007F3918 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D49155291D5DD5007F3918 /* ContentView.swift */; };
 		F4D49158291D5DD5007F3918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D49157291D5DD5007F3918 /* Assets.xcassets */; };
 		F4D4915B291D5DD5007F3918 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D4915A291D5DD5007F3918 /* Preview Assets.xcassets */; };
+		F4D49162291D5DFF007F3918 /* GenerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D49161291D5DFF007F3918 /* GenerateView.swift */; };
+		F4D49164291D64E5007F3918 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D49163291D64E5007F3918 /* ViewModel.swift */; };
+		F4D49166291D6DDE007F3918 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D49165291D6DDE007F3918 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F41AB542291EBCAF00308ABB /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		F4D49150291D5DD5007F3918 /* SwiftBetaDALLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBetaDALLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D49153291D5DD5007F3918 /* SwiftBetaDALLEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBetaDALLEApp.swift; sourceTree = "<group>"; };
 		F4D49155291D5DD5007F3918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4D49157291D5DD5007F3918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D4915A291D5DD5007F3918 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4D49161291D5DFF007F3918 /* GenerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateView.swift; sourceTree = "<group>"; };
+		F4D49163291D64E5007F3918 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F4D49165291D6DDE007F3918 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +36,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41AB54A291EC42600308ABB /* HelpersTutorialDALLE2 in Frameworks */,
+				F41AB54D291ED05700308ABB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F41AB545291EBCCF00308ABB /* GenerateView */ = {
+			isa = PBXGroup;
+			children = (
+				F4D49161291D5DFF007F3918 /* GenerateView.swift */,
+			);
+			path = GenerateView;
+			sourceTree = "<group>";
+		};
+		F41AB546291EBCD900308ABB /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				F41AB542291EBCAF00308ABB /* EditView.swift */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
+		F41AB547291EBCE700308ABB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4D49163291D64E5007F3918 /* ViewModel.swift */,
+				F4D49165291D6DDE007F3918 /* Model.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F4D49147291D5DD5007F3918 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +90,9 @@
 			children = (
 				F4D49153291D5DD5007F3918 /* SwiftBetaDALLEApp.swift */,
 				F4D49155291D5DD5007F3918 /* ContentView.swift */,
+				F41AB545291EBCCF00308ABB /* GenerateView */,
+				F41AB546291EBCD900308ABB /* EditView */,
+				F41AB547291EBCE700308ABB /* ViewModel */,
 				F4D49157291D5DD5007F3918 /* Assets.xcassets */,
 				F4D49159291D5DD5007F3918 /* Preview Content */,
 			);
@@ -83,6 +123,10 @@
 			dependencies = (
 			);
 			name = SwiftBetaDALLE;
+			packageProductDependencies = (
+				F41AB549291EC42600308ABB /* HelpersTutorialDALLE2 */,
+				F41AB54C291ED05700308ABB /* Alamofire */,
+			);
 			productName = SwiftBetaDALLE;
 			productReference = F4D49150291D5DD5007F3918 /* SwiftBetaDALLE.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +155,10 @@
 				Base,
 			);
 			mainGroup = F4D49147291D5DD5007F3918;
+			packageReferences = (
+				F41AB548291EC42600308ABB /* XCRemoteSwiftPackageReference "HelpersTutorialDALLE2" */,
+				F41AB54B291ED05700308ABB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F4D49151291D5DD5007F3918 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D49166291D6DDE007F3918 /* Model.swift in Sources */,
+				F4D49162291D5DFF007F3918 /* GenerateView.swift in Sources */,
+				F41AB543291EBCAF00308ABB /* EditView.swift in Sources */,
 				F4D49156291D5DD5007F3918 /* ContentView.swift in Sources */,
+				F4D49164291D64E5007F3918 /* ViewModel.swift in Sources */,
 				F4D49154291D5DD5007F3918 /* SwiftBetaDALLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +322,7 @@
 				DEVELOPMENT_TEAM = K4FV5B8ZC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Guardar fotos dentro de la galería de imágenes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +352,7 @@
 				DEVELOPMENT_TEAM = K4FV5B8ZC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Guardar fotos dentro de la galería de imágenes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +393,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F41AB548291EC42600308ABB /* XCRemoteSwiftPackageReference "HelpersTutorialDALLE2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftBeta/HelpersTutorialDALLE2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		F41AB54B291ED05700308ABB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F41AB549291EC42600308ABB /* HelpersTutorialDALLE2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F41AB548291EC42600308ABB /* XCRemoteSwiftPackageReference "HelpersTutorialDALLE2" */;
+			productName = HelpersTutorialDALLE2;
+		};
+		F41AB54C291ED05700308ABB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F41AB54B291ED05700308ABB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4D49148291D5DD5007F3918 /* Project object */;
 }

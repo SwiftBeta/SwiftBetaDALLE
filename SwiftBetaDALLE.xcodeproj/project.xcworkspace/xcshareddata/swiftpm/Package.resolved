@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "8dd85aee02e39dd280c75eef88ffdb86eed4b07b",
+        "version" : "5.6.2"
+      }
+    },
+    {
+      "identity" : "helperstutorialdalle2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftBeta/HelpersTutorialDALLE2",
+      "state" : {
+        "revision" : "2797fcb8608d62537eb65be443d1e6f0bf673014",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
