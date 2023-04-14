@@ -26,7 +26,7 @@ final class ViewModel: ObservableObject {
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
         urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        urlRequest.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        urlRequest.addValue("Bearer TOKEN", forHTTPHeaderField: "Authorization")
         
         let dictionary: [String: Any] = [
             "n": 1,
@@ -74,7 +74,7 @@ final class ViewModel: ObservableObject {
     func generateEdit(withText text: String, imageData: Data, maskData: Data) {
         let url = URL(string: "https://api.openai.com/v1/images/edits")!
         
-        let headers = HTTPHeaders(["Authorization" : "Bearer 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"])
+        let headers = HTTPHeaders(["Authorization" : "Bearer TOKEN"])
         
         let dictionary = [
             "n": "1",
