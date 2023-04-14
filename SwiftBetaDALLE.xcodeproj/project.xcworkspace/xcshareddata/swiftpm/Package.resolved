@@ -14,7 +14,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftBeta/HelpersTutorialDALLE2",
       "state" : {
-        "revision" : "2797fcb8608d62537eb65be443d1e6f0bf673014",
+        "revision" : "52781b15f32b5db315085c363de2bb018f0b46fa",
         "version" : "0.2.0"
       }
     }
